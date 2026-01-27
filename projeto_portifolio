@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="tremetoggle">Troque seu tema</button>
+    <div class="container"><img id="photo-preview">
+        <h2 id="display-name">Seu nome</h2>
+        <p id="display-bio">Sua biografia aparece aqui</p>
+
+        <div id="upload-box">
+            <label>Escolha sua foto</label>
+            
+            <br>
+
+            <input type="file" id="imageinput">
+
+            <hr>
+
+            <form action id="profileform">
+                <input id="nameinput" placeholder="Digite seu nome">
+                <textarea id="bioinput">fale sobre você</textarea>
+                <div id="char-count">Texto: caracteres:0</div>
+                <button type="submit">Salvar portifolio</button>
+            </form>
+        </div>
+        
+        <div class="projeto"></div>
+            <div class="cards-projeto">
+
+            </div>
+
+            <div class="cards-projeto">
+                
+            </div>
+
+            <div class="cards-projeto">
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
